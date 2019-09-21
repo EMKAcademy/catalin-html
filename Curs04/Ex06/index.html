@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ex06</title>
+</head>
+<body>
+  <h1>New Adress</h1>
+  <img src="images/new_address.jpg" alt="New Adress">
+  <p><b>Please provide a valid Adress,</b> otherwise we will not be able
+  to send you your stuff.</p>
+  <br>
+  <br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+  <h2>Useful links</h2>
+  <ul>
+    <li> <a href="https://www.google.com/maps" 
+            title="Google Maps">https://www.google.com/maps</a></li>
+    <li> <a href="https://www.coduripostale.com/" 
+            title="Coduri Postale">https://www.coduripostale.com/</a></li>
+  </ul>
+  <h2>Adress Form</h2>
+  <form>
+    <fieldset>
+      <legend>Adress Information</legend>
+      <label>Title</label>
+      <label for="mr.">Mr.</label>
+      <input type="radio" name="title" id="mr." value="Mr" checked>
+      <label for="ms.">Ms.</label>
+      <input type="radio" name="title" id="ms." value="Ms" >
+      <label for="unspec">Unspecified</label>
+      <input type="radio" name="title" id="unspec" value="Unspecified" ><br>
+      <label for="name">*Name</label>
+      <input type="text" name="name" id="name" placeholder="Name" required><br>
+      <label for="surname">Surname</label>
+      <input type="text" name="surname" id="surname" placeholder="Surname" required><br>
+      <label for="phone">*Phone</label>
+      <input type="tel" name="phone" id="Phone" placeholder="Phone number" required><br>
+      <label for="adress1">*Adress 1</label>
+      <input type="text" name="adress1" id="adress1" placeholder="Adress Line 1" required><br>
+      <input type="text" name="adress2" id="adress2" placeholder="Adress Line 2"><br>
+      <label for="city">*City</label>
+      <input type="text" name="city" id="city" placeholder="City" required><br>
+      <label for="state">*State</label>
+      <select name="state" id="state" required>
+        <option value="">--State--</option>
+        <option value="Alabama">Aabama</option>
+        <option value="California">California</option>
+        <option value="New York">New York</option>
+      </select><br>
+      <label for="postcode">*Postcode</label>
+      <input type="number" name="postcode" id="postcode" placeholder="Postcode" required><br>
+      <input type="checkbox" name="gdpr" id="gdpr">
+      <label for="gdpr">GDPR generic consent?</label><br>
+      <input type="submit" value="Create Account">
+      <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+</body>
+</html>

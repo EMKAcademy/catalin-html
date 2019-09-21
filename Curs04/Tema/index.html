@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tema :(</title>
+</head>
+<body>
+  <a href="https://www.google.com" title="Home">Home</a>*
+  <a href="https://www.google.com" title="Place Order"><b>Place Order</b></a>*
+  <a href="https://www.google.com" title="Customer Service">Customer Service</a>*
+  <a href="https://www.google.com" title="Contact">Contact</a>
+  <h1>Place Order</h1>
+  <p>This is the <b>guest checkout</b></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <h2>Products</h2>
+  <img src="images/mouse.jpg" alt="Mouse">
+  <a href="https://www.google.com" title="Sterge">Sterge</a>
+  <a href="https://www.google.com" title="Editeaza">Editeaza</a>
+  <hr>
+  <img src="images/extension_chord.jpg" alt="Extension Cord">
+  <a href="https://www.google.com" title="Sterge">Sterge</a>
+  <a href="https://www.google.com" title="Editeaza">Editeaza</a>
+  <hr>
+  <img src="images/phone.jpg" alt="Phone">
+  <a href="https://www.google.com" title="Sterge">Sterge</a>
+  <a href="https://www.google.com" title="Editeaza">Editeaza</a>
+  <hr>
+  <h2>Order now</h2>
+  <p>On our website <i>no account is needed.</i></p>
+  <ol>
+    <li>First we need some information about yourself. <b>Don't forget to provide a phone</b></li>
+    <li>Then we need your <i>real</i> shipping adress</li>
+    <li>Finally, your credit card information</li>
+  </ol>
+  <form>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label>Title</label>
+      <label for="mr.">Mr.</label>
+      <input type="radio" name="title" id="mr." value="Mr" checked>
+      <label for="ms.">Ms.</label>
+      <input type="radio" name="title" id="ms." value="Ms" >
+      <label for="unspec">Unspecified</label>
+      <input type="radio" name="title" id="unspec" value="Unspecified" ><br>
+      <label for="name">*Name</label>
+      <input type="text" name="name" id="name" placeholder="Name" required><br>
+      <label for="surname">Surname</label>
+      <input type="text" name="surname" id="surname" placeholder="Surname" required><br>
+      <label for="email">*Emai</label>
+      <input type="email" name="email" id="email" placeholder="Email" required><br>
+      <label for="phone">*Phone</label>
+      <input type="tel" name="phone" id="Phone" placeholder="Phone number" required><br>
+  </fieldset>
+  <fieldset>
+    <legend>Adress</legend>
+      <label for="name">*Name</label>
+      <input type="text" name="name" id="name" placeholder="Name" required><br>
+      <label for="surname">Surname</label>
+      <input type="text" name="surname" id="surname" placeholder="Surname" required><br>
+      <label for="phone">*Phone</label>
+      <input type="tel" name="phone" id="Phone" placeholder="Phone number" required><br>
+      <label for="adress1">*Adress 1</label>
+      <input type="text" name="adress1" id="adress1" placeholder="Adress Line 1" required><br>
+      <input type="text" name="adress2" id="adress2" placeholder="Adress Line 2"><br>
+      <label for="city">*City</label>
+      <input type="text" name="city" id="city" placeholder="City" required><br>
+      <label for="state">*State</label>
+      <select name="state" id="state" required>
+        <option value="">--State--</option>
+        <option value="Alabama">Aabama</option>
+        <option value="California">California</option>
+        <option value="New York">New York</option>
+      </select><br>
+      <label for="postcode">*Postcode</label>
+      <input type="number" name="postcode" id="postcode" placeholder="Postcode" required><br>
+  </fieldset>
+  <fieldset>
+    <legend>Card Information</legend>
+    <label for="cardno">*Card Number</label>
+    <input type="number" name="cardno" id="cardno" placeholder="Card Number" required> <br>
+    <label for="nameOnCard">*Name on Card</label>
+    <input type="text" name="nameOnCard" id="nameOnCard" placeholder="Name on Card" required><br>
+    <label for="exmonth">*Expiry Month</label>
+    <select name="exmonth" id="exmonth" required>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+    </select>
+    <label for="exyear">Expiry Year</label>
+    <select name="exyear" id="exyear" required>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+    </select><br>
+    <label for="cvv">*CVV</label>
+    <input type="number" name="cvv" id="cvv" placeholder="CVV" required><br>
+    <p><i>We do not store credit card information!</i></p>
+  </fieldset>
+  <fieldset>
+    <legend>Form controls</legend>
+    <input type="checkbox" name="terms" id="terms" required>
+    <label for="term">*You are required to agree to the *You are required to agree to the 
+        <a href="https:/www.google.com" 
+            title="Terms and Conditions">terms and conditions
+        </a></label><br>
+    <input type="checkbox" name="emailreq" id="emailreq">
+    <label for="emailreq">Can we send you emails?</label><br>
+    <input type="checkbox" name="gdpr" id="gdpr">
+    <label for="gdpr">GDPR generic consent?</label><br>
+    <input type="submit" value="Place order">
+    <input type="Reset" value="Reset">
+  </fieldset>
+  </form>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <a href="https://www.google.com" title="Home">Home</a>*
+  <a href="https://www.google.com" title="Place Order"><b>Place Order</b></a>*
+  <a href="https://www.google.com" title="Customer Service">Customer Service</a>*
+  <a href="https://www.google.com" title="Contact">Contact</a>
+</body>
+</html>
