@@ -1,0 +1,10 @@
+#filter-plaid{
+  display: none;
+}
+
+.filter-plaid{
+  background-color: #00008b;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
