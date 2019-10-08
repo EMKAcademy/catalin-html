@@ -1,0 +1,53 @@
+.abs-nav{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #1e90ff;
+  color: #a52a2a;
+}
+
+.abs-nav a{
+  color: #a52a2a;
+}
+
+.container{
+  border: 1px solid black;
+  position: relative;
+}
+
+.legend{
+  position: absolute;
+  background: gray;
+  border: 1px solid red;
+  top: -10px;
+  left: 20px;
+}
+
+.sup{
+  font-size: 10px;
+  position: relative;
+  top: -5px;
+}
+.sticky-nav{
+  position: sticky;
+  background: green;
+  left: 0;
+  top: 0;
+  width: 500px;
+}
+.sticky-nav ul{
+  list-style-type: none;
+}
+
+.sticky-nav li{
+  display: inline;
+}
+
+.sticky-nav a{
+  color: white;
+}
+
+.center{
+  width: 400px;
+  margin: auto;
+}
