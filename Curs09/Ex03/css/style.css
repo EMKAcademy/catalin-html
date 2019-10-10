@@ -9,3 +9,14 @@
   float: left;
 }
 
+.orientation-left img{
+  float:left;
+}
+
+.orientation-right img{
+  float:right;
+}
+
+.card .float-left {
+  float:none;
+}

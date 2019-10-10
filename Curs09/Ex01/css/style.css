@@ -1,3 +1,35 @@
 ul, ol {
   list-style-type: none;
 }
+.para {
+  margin-bottom: 16px;
+  margin-top:16px;
+  display: block;
+}
+
+.para span {
+  display: inline-block;
+  padding: 5px;
+  border: 1px red solid;
+}
+ul li {
+  display: inline-block;
+}
+
+.para-large {
+  display: block;
+  padding: 10px;
+  margin: 25px;
+}
+
+.para-large span {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border: 2px dotted green;
+}
+ol li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
