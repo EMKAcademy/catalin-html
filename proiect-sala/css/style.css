@@ -488,11 +488,35 @@ body {
   color: #ff6b6b;
 }
 
+.content .carousel {
+  background: url("../images/banners/banner02.jpg") no-repeat center center;
+  background-size: cover;
+}
 
+.content .carousel .container {
+  min-height: 570px;
+  color: white;
+  position: relative;
+}
 
+.content .carousel h1 {
+  font-family: robotobold;
+  font-size: 75px;
+  margin: 115px 0 0 0 ;
+  float: right;
+}
 
+.content .carousel .tagline {
+  clear:both;
+  text-align: right;
+}
 
-
+.content .carousel .small-print {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align:right;
+}
 
 
 
