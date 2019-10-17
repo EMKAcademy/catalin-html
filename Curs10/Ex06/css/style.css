@@ -1,0 +1,36 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-child(even) a:hover {
+  color: red;
+}
+
+h1{
+  display: inline-block;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p:hover i {
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main a:nth-of-type(odd):hover {
+  text-decoration: none;
+  color: green;
+}
+
+p b:hover {
+  color: red;
+  position: relative;
+  top: -2px;
+}

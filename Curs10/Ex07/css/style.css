@@ -1,0 +1,56 @@
+/* Stileaza primul paragraf astfel incat sa arate ca o lista neordonata, folosind ::before pentru puncte 
+care sa arate ca romburi mov
+Folosind ::after pentru aceleasi ancore, stileaza cercuri rosii alungite pe verticala, folosind transfomarea de CSS skew
+Stileaza al doilea paragraf astfel incat sa arate ca o lista neordonata, folosind ::before pentru puncte care sa arate ca cercuri galbene alungite pe verticala 
+Folosind ::after pentru aceste ancore, stileaza romburi mov alungite pe verticala, folosind transformarii CSS (skew si rotate)
+ */
+
+ .my-first-list a {
+   display: block;
+   margin: 5px 0;
+ }
+
+ .my-first-list a::before {
+   content: " ";
+   display: inline-block;
+   width: 7px;
+   height:7px;
+   background-color: purple;
+   margin-right: 3px;
+   transform: rotate(45deg);
+ }
+
+ .my-first-list a::after {
+   content: " ";
+   display: inline-block;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   margin: 5px;
+   border-radius: 10px;
+   transform: skew(20deg) rotate(10deg);
+ }
+
+ .my-second-list a {
+   display: block;
+   margin: 5px 0;
+ }
+
+ .my-second-list a::before {
+   content: " ";
+   display: inline-block;
+   width: 7px;
+   height: 7px;
+   background-color: yellow;
+   border-radius: 10px;
+   transform: skewX(20deg);
+ }
+
+ .my-second-list a::after {
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: purple;
+   transform: rotate(45deg);
+}
