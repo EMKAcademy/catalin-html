@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header container">
     <div class="top-header">
       <div class="header-phone">
         <img src="" alt="Phone Icon">
@@ -50,22 +50,25 @@
   </header>
   <!-- end of .header -->
   <main class="content">
-    <section class="slider">
-        <div>
-          <img src="images/banners/banner03.jpg" alt="">
-        </div>
+    <section class="slider" id="slide">
+       <div class="container">
+        <h1>Office Suits</h1>
+           <p class="tagline">Get back to work in style.</p>
+           <p class="small-print">A Tailored Suit that will fit you perfectly is a dream for everybody. <br>
+           We provide you with the design and you choose if you like it or if you want to change the details with our online configurator.</p>
+       </div> 
     </section>
     <!-- end of .slider -->
-    <header class="content-header">
+    <header class="content-header container">
       <div class="filter">
-        <form>
-          <select name="category" id="">
+        <form class="filter">
+          <select name="category" id="select-type">
             <option value="">Select Category</option>
             <option value="glam">Glamour Suits</option>
             <option value="wedd">Wedding Suits</option>
             <option value="offi">Office Suits</option>
           </select>
-          <select name="size" id="">
+          <select name="size" id="select-size">
             <option value="">Select Your Size</option>
             <option value="XS">Extra Small</option>
             <option value="S">Small</option>
@@ -74,7 +77,7 @@
             <option value="XL">Extra Large</option>
           </select>
           <div class="fit-finder">
-            <a href="" title="Fit Finder">
+            <a href="" class="fit-finder" title="Fit Finder">
               <img src="images/decorations/fit-finder.jpg" alt="Fit Finder Logo">
                 <span class="red-text">
                     FIT 
@@ -82,7 +85,7 @@
                 FINDER
             </a>
           </div>
-          <div class="color-filter">
+        
             <input type="checkbox" id="filter-plaid">
             <label for="filter-plaid"><div class="filter-plaid"></div>
             </label>
@@ -92,34 +95,33 @@
             <input type="checkbox" id="filter-darkblue">
             <label for="filter-darkblue"><div class="filter-darkblue"></div>
             </label>
-            <input type="checkbox" id="filter-lightgray">
+            <input type="checkbox" id="filter-lightgrey">
             <label for="filter-lightgray"><div class="filter-lightgrey"></div>
             </label>
-            <input type="checkbox" id="filter-darkgray">
+            <input type="checkbox" id="filter-darkgrey">
             <label for="filter-darkgray"><div class="filter-darkgrey"></div>
             </label>
-          </div>
+          
           <!-- end of .color-filter -->
-          <div class="filter-discount">
             <input type="checkbox" name="discount" id="filter-discount">
-            <label for="filter-discount"><div class="filter-discount">$</div>
+            <label for="filter-discount"><div class="filter-discount">%</div>
             </label>
-          </div>
           <!-- end of .filter-discount -->
-          <div class="filter-signed">
+        
             <input type="checkbox" name="signed" id="filter-signed">
             <label for="filter-signed"><div class="filter-signed">SIGNED</div>
             </label>
-          </div>
+         
           <!-- end of .filter-signed -->
-          <input type="submit" value="FILTER">
+          <input type="submit" value="FILTER" id="filter-end">
         </form>
+        
       </div>
       <!-- end of .filter -->
     </header>
     <!-- end of .content-header -->
-    <section class="main-content">
-      <h1 class="main-title">Office Suits</h1>
+    <section class="main-content container">
+      <h1 class="main-title"><span class="bold">Office</span> Suits</h1>
       <p class="main-description">Accomplish new achievements with a bold
         new style from the brilliant collection of men's designer suits.
       </p>
@@ -201,7 +203,7 @@
     <!-- end of .main-content -->
   </main>
   <!-- end of .content -->
-  <footer class="footer">
+  <footer class="footer container">
     <section class="footer-top">
       <nav>
         <h5>INFORMATION</h5>
@@ -252,5 +254,6 @@
     <!-- end of footer-bottom -->
   </footer>
   <!-- end footer -->
+  <script src="javascript/script.js"></script>
 </body>
 </html>
