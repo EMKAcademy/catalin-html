@@ -529,7 +529,7 @@ body {
 .slider {
   display: flex;
   justify-content: center;
-  background: url("/images/banners/banner03.jpg");
+  background: url("../images/banners/banner03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 570px;
@@ -602,7 +602,7 @@ body {
 }
 
 .filter-plaid {
-  background-image: url("/images/swatches/70yz9xts.jpg");
+  background-image: url("../images/swatches/70yz9xts.jpg");
   width: 30px;
   height: 30px;
   border-radius: 40px;
@@ -615,7 +615,7 @@ body {
 }
 
 .filter-black {
-  background-image: url("/images/swatches/9ch6ixdy.jpg");
+  background-image: url("../images/swatches/9ch6ixdy.jpg");
   width: 30px;
   height: 30px;
   border-radius: 35px;
@@ -628,7 +628,7 @@ body {
 }
 
 .filter-darkblue {
-  background-image: url("/images/swatches/ec6vtojh.jpg");
+  background-image: url("../images/swatches/ec6vtojh.jpg");
   width: 30px;
   height: 30px;
   border-radius: 40px;
@@ -641,7 +641,7 @@ body {
 }
 
 .filter-lightgrey {
-  background-image: url("/images/swatches/gc5j72yj.jpg");
+  background-image: url("../images/swatches/gc5j72yj.jpg");
   width: 30px;
   height: 30px;
   border-radius: 40px;
@@ -654,7 +654,7 @@ body {
 }
 
 .filter-darkgrey {
-  background-image: url("/images/swatches/xuuv6wx8.jpg");
+  background-image: url("../images/swatches/xuuv6wx8.jpg");
   width: 30px;
   height: 30px;
   border-radius: 40px;

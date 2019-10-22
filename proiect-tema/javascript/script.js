@@ -16,7 +16,7 @@ function slide1() {
     
     slideimg.classList.add('slide')
         s_index=s_index+1;
-        slideimg.style.backgroundImage='url("/images/banners/banner03.jpg")';
+        slideimg.style.backgroundImage='url("./images/banners/banner03.jpg")'
     slideimg.addEventListener('animationend', function()
     {
         slideimg.classList.remove('slide')
@@ -27,7 +27,7 @@ function slide1() {
 function slider2(){
     slideimg.classList.add('slide')
         s_index=s_index-1;
-        slideimg.style.backgroundImage='url("/images/banners/banner02.jpg")';
+        slideimg.style.backgroundImage='url("./images/banners/banner02.jpg")'
         slideimg.addEventListener('animationend', function()
         {
             slideimg.classList.remove('slide')
