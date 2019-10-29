@@ -616,13 +616,22 @@ body {
 
 }
 
+.filter-active {
+  background-repeat: no-repeat;
+  border: 1px gray solid;
+}
+
 .filter-plaid {
   background-image: url("../images/swatches/70yz9xts.jpg");
+  background-position:center;
   width: 30px;
   height: 30px;
   border-radius: 40px;
   margin: 0px 10px;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-plaid {
@@ -636,6 +645,9 @@ body {
   border-radius: 35px;
   margin: 0px 10px;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-black {
@@ -649,6 +661,9 @@ body {
   border-radius: 40px;
   margin: 0px 10px;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-darkblue {
@@ -662,6 +677,9 @@ body {
   border-radius: 40px;
   margin: 0px 10px;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-lightgrey {
@@ -675,6 +693,9 @@ body {
   border-radius: 40px;
   margin: 0px 10px;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-darkgrey {
@@ -692,7 +713,9 @@ body {
   text-align: center;
   margin: 0 35px;
   display: block;
-
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-discount {
@@ -712,6 +735,9 @@ body {
   margin: 0 35px;
   text-transform: lowercase;
   display: block;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #filter-signed {
