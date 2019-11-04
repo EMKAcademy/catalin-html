@@ -907,6 +907,52 @@ body {
   margin: auto;
 }
 
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1200px;
+  height: 200px;
+  background-color: #3d3d3d;
+  margin: 10px auto;
+}
+
+.newsletter label {
+  text-align: center;
+  margin: 0 30px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+
+}
+
+.newsletter label span {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.newsletter input[type="email"] {
+  background: #3d3d3d ;
+  border: 0;
+  border-bottom: 1px solid #aeaeae;
+  width: 350px;
+}
+
+.newsletter button {
+  background: #3d3d3d ;
+  text-transform: uppercase;
+  color:#aeaeae;
+  font-size: 20px;
+  border: 0;
+  
+}
+
+.newsletter i {
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
 .content-footer {
   margin-top: 75px;
 }
